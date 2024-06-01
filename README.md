@@ -1,7 +1,7 @@
 # Production-1
 ## Summer
 
-The frontend part of this project is insipired from SIH(Smart India Hackathon) problem statement ![alt text](image.png)
+The  project is inspired from SIH(Smart India Hackathon) problem statement ![alt text](image.png)
 
 The backend is intended to be done using Flask.
 
