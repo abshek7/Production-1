@@ -8,10 +8,5 @@ The backend is intended to be done using Flask.
 The base idea is to build a chatbot which uses LangChain for integrating LLMS for better responses.
 
 ### Tech Stack
-
-- HTML, CSS, JS, and ReactJS (if needed) for frontend
-- Python-Flask for backend
-- Database:  Conventional-(SQLite3)
-              LLM-Vector Database(Chroma db )
-- LLM-GEMINI FLASK 1.5 MODEL
-- Deployment: Azure For Students
+![image](https://github.com/abshek7/Production-1/assets/125293266/2d1703b6-d5e2-49e6-ac9f-3b50223c41b6)
+ 
