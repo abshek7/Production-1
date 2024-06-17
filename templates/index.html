@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Substation Maintenance Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  </head>
+  <body>
+    <!-- Responsive Navbar -->
+    <div class="navbar">
+      <div class="left-nav">
+        <div class="nav-logo">
+          <a href="/" role="button">
+            <p class="logo-name">Substation ChatBot</p>
+          </a>
+        </div>
+        <div class="nav-features">
+          <div class="features-badge">SUMMER PROJECT</div>
+           
+        </div>
+      </div>
+     
+    </div>
+    <!-- Main Page -->
+    <div class="landing-page">
+      <div class="landing-feature">
+        <div class="landing-features-badge">DOMAIN:INDUSTRY</div>
+        
+      </div>
+      <div class="landing-banner">
+        <div class="chatbot-logo">
+          <img src="{{ url_for('static', filename='images/chatbot.png') }}" alt="chatbotlogo" />
+        </div>
+        
+        <p class="landing-desc">
+          A proposed chatbot utilizes Natural Language Processing (NLP) techniques, leveraging LangChain integration. It integrates
+large language models (LLMs) fine-tuned on domain-specific data, enabling precise responses and extracting relevant information from queries and
+knowledge bases
+        </p>
+      </div>
+      <div class="landing-buttons container">
+        <a href="/chatbot" id="explore" role="button">LETS-GO<i class="bx bx-world"></i></a>
+      </div>
+      
+    </div>
+    <div class="line"></div>
+    <div class="feature-section">
+      <div class="feature">
+        <div class="feature-icon" id="purple-icon">
+          <img
+            src="{{ url_for('static', filename='images/artificial-intelligence.png') }}" alt="aiicon"/>
+        </div>
+        <h2 class="feature-title">Integrated Smart ChatBot</h2>
+        <p class="feature-content">
+          Automated and integrated with a smart conversational interface for great substation
+          maintenance queries, accelerated time-to-fill and reduced manual work for your employees.
+        </p>
+      </div>
+       
+      <div class="feature">
+        <div class="feature-icon" id="blue-icon">
+          <img src="{{ url_for('static', filename='images/time.png') }}" alt="quick" />
+        </div>
+        <h2 class="feature-title">Accelerated Response Timing</h2>
+        <p class="feature-content">
+          Low-latency and quick responses with the model to answer to queries semantically and
+          accurately. Faster processing and flow of data.
+        </p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon" id="green-icon">
+          <img src="{{ url_for('static', filename='images/guidelines.png') }}" alt="guidelines" />
+        </div>
+        <h2 class="feature-title">Industrial & Safety Guidelines</h2>
+        <p class="feature-content">
+          Responsible use of ChatBot, along with appropriate regulation and oversight, is essential
+          to ensure that it is used for good and benefits society as a whole.
+        </p>
+      </div>
+    </div>
+    <div class="line"></div>
+    <!-- FAQ - Accordion -->
+    <p class="faq-title">Frequently Asked Questions</p>
+    <div class="faq-container">
+      <div class="faq-img">
+        <img src="{{ url_for('static', filename='images/faq.svg') }}" alt="faq" />
+      </div>
+      <div class="faq-group">
+        <div class="faq">
+          <div class="question">
+            <h3>How can I develop a substation maintenance plan?</h3>
+          </div>
+          <div class="answer">
+            <p>
+              Developing a maintenance plan involves assessing the specific needs of your
+              substation, setting maintenance schedules, budgeting for resources, and ensuring
+              compliance with relevant standards and regulations.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h3>What safety precautions are essential during substation maintenance?</h3>
+          </div>
+          <div class="answer">
+            <p>
+              Safety is paramount during substation maintenance. Technicians should wear appropriate
+              personal protective equipment (PPE), follow lockout/tagout procedures, and be trained
+              in handling high-voltage equipment.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h3>What are the key tasks involved in circuit breaker maintenance?</h3>
+          </div>
+          <div class="answer">
+            <p>
+              Circuit breaker maintenance involves testing, cleaning, lubrication, and inspection to
+              ensure proper operation, including verifying the arc quenching capability and checking
+              control circuits.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h3>What is reactor test in a substation?</h3>
+          </div>
+          <div class="answer">
+            <p>
+              A reactor test is a procedure used in nuclear power plants to assess the safety and
+              performance of nuclear reactors. During a reactor test, various parameters, such as
+              temperature, pressure, and reactor power output, are measured and controlled to ensure
+              that the reactor operates within safe limits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+     <footer>
+      <h3>TEAM</h3>
+ 
+      <div class="social-icons">
+        <a href="https://github.com/abshek7" role="button"> ABHI<br><i class="bx bxl-github"></i></a>
+        <a href="https://github.com/bhanuprakash2811" role="button">BHANU<br><i class="bx bxl-github"></i></a>
+        <a href="https://github.com/amulya0903" role="button">AMULYA<br><i class="bx bxl-github"></i></a>
+        <a href="https://github.com/varun04044" role="button">VARUN<br><i class="bx bxl-github"></i></a>
+      </div>
+     <br>
+    
+ 
+      <p>&copy; 2024 Substation Maintenance Website. All rights reserved.</p>
+      
+    </footer>
+ <!-- Script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="static/js/index.js"></script>
+
+ 
+
+  
+  </body>
+</html>
