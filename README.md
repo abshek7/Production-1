@@ -14,3 +14,4 @@ The base idea is to build a chatbot which uses LangChain for integrating LLMS fo
 - Database:  Conventional-(SQLite3)
               LLM-Vector Database(Chroma db )
 - LLM-GEMINI FLASK 1.5 MODEL
+- Deployment: Azure For Students
